@@ -1,6 +1,8 @@
 # <img src="./logo.webp" alt="drawing" width="30"/> Wgt to USB
 A node.js CLI utility to convert .wgt file to a USB demo package.
 
+You need to install rimraf before the installation.
+
 Usage:
 ```bash
 wgt-to-usb ./app.wgt
