@@ -11,7 +11,7 @@
     "wgt-to-usb": "build/index.js"
   },
   "scripts": {
-    "build": "rm -rf build && npx tsc",
+    "build": "rimraf build && npx tsc",
     "prepare": "npm run build"
   },
   "author": "Artur Finger",
